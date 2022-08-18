@@ -1,0 +1,1572 @@
+body{
+	/*height: 1000px;*/
+	position: relative;
+}
+
+header{
+	height: 80px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding-left: 10%;
+	padding-right: 10%;
+	position: fixed;
+	z-index: 33;
+	/*note sticky not working*/
+}
+
+	/*used PX on height correct or not?*/
+
+.divcontainer{
+	height: 100%;
+	width: 100%;
+	/*background-color: black;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.divlogo{
+	height: 100%;
+	width: 20%;
+	/*background-color: red;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.imagelogo{
+	height: 100%;
+	width: auto;
+	filter: brightness(1.1);
+}
+
+	/*sizing issue logo image*/
+
+.pagedata{
+	height: 100%;
+	width: 50%;
+	/*background-color: silver;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navigation{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	/*align-items: center;*/
+	filter: brightness(5);
+}
+
+.divhome{
+	transition: 0.3s ease;
+	color: #551a8b;
+}
+
+.divhome:hover{
+	color: red;
+}
+
+.divabout{
+	transition: 0.3s ease;
+}
+
+.divabout:hover{
+	color: red;
+}
+
+.divservices{
+	transition: 0.3s ease;
+}
+
+.divservices:hover{
+	color: red;
+}
+
+.divteam{
+	transition: 0.3s ease;
+}
+
+.divteam:hover{
+	color: red;
+}
+
+.divcontact{
+	transition: 0.3s ease;
+}
+
+.divcontact:hover{
+	color: red;
+}
+
+.sectionone{
+	height: 100vh;
+	background-image: url(../images/photoshop/BackgroundMain.jpg);
+	background-color: black;
+	background-position: center;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	/*transition: 0.5s ease;*/
+
+	animation-name: BackgroundMain;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-direction: forwards;
+	animation-play-state: running;
+
+
+
+}
+
+@keyframes BackgroundMain{
+
+	0%{
+		background-size: 100%;
+	}
+
+	50%{
+		background-size: 115%;
+	}
+
+	100%{
+		background-size: 100%;
+	}
+}
+
+ /*this keyframe makes browser lag!*/
+
+/*.sectionone:hover{
+	background-size: 150%;
+}*/
+
+.sectiononediv{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+	/*I want image to fade in like in reference*/
+
+.sectiononelogo{
+	height: 40%;
+	width: 50%;
+}
+
+.imhover{
+	height: 10%;
+	width: 12%;
+	border-width: 1.5px;
+	border-color: #d73939;
+	border-style: solid;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 25px;
+	color: white;
+
+	box-shadow: inset 0 0 0 0 #54b3d6;
+  	/*color: #54b3d6;*/
+  	margin: 0 -.25rem;
+  	padding: 0 .25rem;
+  	transition: color .3s ease-in-out, box-shadow .45s ease-in-out;
+}
+
+.imhover:hover{
+	box-shadow: inset 500px 0 0 0 #54b3d6;
+  	color: black;
+}
+
+.sectiontwo{
+	height: 100vh;
+	/*position: absolute;
+	z-index: 2;*/
+	background-color: #38394d;
+}
+
+.divcontainertwo{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.div1{
+	/*height: 100px;
+	width: 100px;
+	background-color: yellow;*/
+	font-size: 50px;
+	color: white;
+}
+
+.div2{
+	/*height: 100px;
+	width: 100px;
+	background-color: pink;*/
+	font-size: 70px;
+	color: #d73939;
+}
+
+.div3{
+	/*height: 100px;
+	width: 100px;
+	background-color: maroon;*/
+	height: 15%;
+	width: 70%;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	line-height: 1.6;
+}
+
+.div4{
+	height: 50%;
+	width: 100%;
+	/*background-color: cyan;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.second-section-service{
+	height: 100%;
+	width: 25%;
+	/*background-color: black;*/
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+}
+
+ /*all div4*/
+
+
+.div4-circle{
+	height: 30%;
+	width: 30%;
+	/*background-color: #4b4b4b*/;
+	border-width: 1.5px;
+	border-style: solid;
+	border-color: #4b4b4b;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 45px;
+	/*transition: 0.3s ease;*/
+
+
+	box-shadow: inset 0 0 0 0.1px #54b3d6;
+  	/*color: #54b3d6;*/
+  	margin: 0 -.25rem;
+  	padding: 0 .25rem;
+  	transition: color .35s ease-in-out, box-shadow .5s ease-in-out;
+}
+
+ /*I've used pixels here*/
+
+
+
+
+.div4-circle:hover {
+	/*background-color: red;*/
+
+	box-shadow: inset 500px 0 0 0 #54b3d6;
+  	color: #d73939;
+
+}
+
+
+
+
+
+.div4-title{
+	color: white;
+	font-size: 25px;
+}
+
+.div4-lorem{
+	color: white;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.div4-hover{
+	height: 15%;
+	width: 40%;
+	/*background-color: red;*/
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	border-width: 1.5px;
+	border-style: solid;
+	border-color: #4b4b4b;
+	color: white;
+
+	box-shadow: inset 0 0 0 0.1px #54b3d6;
+  	/*color: #54b3d6;*/
+  	margin: 0 -.25rem;
+  	padding: 0 .25rem;
+  	transition: color .3s ease-in-out, box-shadow .45s ease-in-out;
+}
+
+.div4-hover:hover{
+	box-shadow: inset 500px 0 0 0 #54b3d6;
+  	color: black;
+}
+ 
+ 	/*Hover Lags*/
+
+ /*all div4*/
+
+
+.sectionthree{
+	height: 100vh;
+	background-color: #a6a7bd;
+	
+}
+
+.sectionthreedivwrapper{
+	margin-top: 5%;
+	height: 50%;
+	width: 100%;
+	/*background-color: black;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.divboxone{
+	height: 100%;
+	width: 25%;
+	/*background-color: green;*/
+	border-style: solid;
+	border-width: 2px;
+	border-color: #4b4b4b;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.Hover-cleanup{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.divboxonewrapper{
+
+	height: 60%;
+	width: 60%;
+	/*background-color: black;*/
+	font-size: 600%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.35s ease;
+}
+
+
+.Hover-cleanup:hover .divboxonewrapper {
+	transform: translate(0, -50px);
+	color: #d73939;
+}
+
+
+.personalcomputer{
+	position: absolute;
+	font-size: 20px;
+	text-align: center;
+	transition: .35s ease;
+	opacity: 0;
+	display: flex;
+	flex-direction: row;
+}
+
+.Hover-cleanup:hover .divboxonewrapper .personalcomputer{
+	transform: translate(0, 70px);
+	opacity: 1;
+	color: #d73939;
+}
+
+
+.divboxtwo{
+	height: 100%;
+	width: 25%;
+	/*background-color: blue;*/
+	border-style: solid;
+	border-width: 2px;
+	border-color: #4b4b4b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.divboxthree{
+	height: 100%;
+	width: 25%;
+	/*background-color: cyan;*/
+	border-style: solid;
+	border-width: 2px;
+	border-color: #4b4b4b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-four{
+	height: 100vh;
+	/*position: absolute;
+	z-index: 2;*/
+	/*background-color: #75779c;*/
+	background-color: #38394d
+
+}
+
+.container-four{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.section-four-images-wrapper{
+	height: 60%;
+	width: 100%;
+	/*background-color: red;*/
+	display: flex;
+	/*flex-direction: row;*/
+	/*flex-wrap: wrap;*/
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.images-part-one{
+	height: 50%;
+	width: 100%;
+	/*background-color: silver;*/
+	display: flex;
+	align-items: row;
+	justify-content: space-around;
+
+}
+
+.image-1-container{
+	height: 100%;
+	width: 20%;
+	/*background-color: black;*/
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: black;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+}
+
+.image-1{
+	width: 100%;
+	height: 100%;
+	background-position: 75% 55%;
+	background-size: 175%;
+	background-image: url(../images/hiking.png);
+	filter: brightness(.9);
+	transition: 0.7s;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+.image-1-tan{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0);
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.7s ;
+	transition-delay: 0.1s;
+}
+
+.image-1:hover{
+	background-size: 190%;
+	filter: brightness(1);
+}
+
+.image-1:hover .image-1-tan{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image-1-box{
+	height: 85%;
+	width: 85%;
+	/*background-color: white;*/
+	background-color: rgba(0215, 57, 57, 0);
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgba(255, 255, 255, 0);
+	transition: all 0.6s;
+	transition-delay: 0.3s;
+	
+}
+
+.image-1:hover .image-1-tan .image-1-box{
+	background-color: rgba(0215, 57, 57, 0.8);
+	border-color: rgba(255, 255, 255, 1.0);
+}
+
+
+.image-1-box-text{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgba(255, 255, 255, 0);
+	transition: all 0.6s;
+	transition-delay: 0.3s;
+}
+
+.image-1:hover .image-1-tan .image-1-box .image-1-box-text{
+	color: rgba(255, 255, 255, 1);
+}
+
+.image-2-container{
+	height: 100%;
+	width: 20%;
+	/*background-color: black;*/
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: black;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+}
+
+.image-2{
+	width: 100%;
+	height: 100%;
+	background-position: 75% 55%;
+	background-size: 175%;
+	background-image: url(../images/rafting.jpg);
+	filter: brightness(.9);
+	transition: 0.7s;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+.image-2-tan{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0);
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.7s ;
+	transition-delay: 0.1s;
+}
+
+.image-2:hover{
+	background-size: 190%;
+	filter: brightness(1);
+}
+
+.image-2:hover .image-2-tan{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image-2-box{
+	height: 85%;
+	width: 85%;
+	/*background-color: white;*/
+	background-color: rgba(0215, 57, 57, 0);
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgba(255, 255, 255, 0);
+	transition: all 0.6s;
+	transition-delay: 0.3s;
+	
+}
+
+.image-2:hover .image-2-tan .image-2-box{
+	background-color: rgba(0215, 57, 57, 0.8);
+	border-color: rgba(255, 255, 255, 1.0);
+}
+
+
+.image-2-box-text{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgba(255, 255, 255, 0);
+	transition: all 0.6s;
+	transition-delay: 0.3s;
+}
+
+.image-2:hover .image-2-tan .image-2-box .image-2-box-text{
+	color: rgba(255, 255, 255, 1);
+}
+
+.image-3-container{
+	height: 100%;
+	width: 20%;
+	/*background-color: black;*/
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: black;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+}
+
+.image-3{
+	width: 100%;
+	height: 100%;
+	background-position: 35% 55%;
+	background-size: 175%;
+	background-image: url(../images/camping.jpg);
+	filter: brightness(.9);
+	transition: 0.7s;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+.image-3-tan{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0);
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.7s ;
+	transition-delay: 0.1s;
+}
+
+.image-3:hover{
+	background-size: 190%;
+	filter: brightness(1);
+}
+
+.image-3:hover .image-3-tan{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image-3-box{
+	height: 85%;
+	width: 85%;
+	/*background-color: white;*/
+	background-color: rgba(0215, 57, 57, 0);
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgba(255, 255, 255, 0);
+	transition: all 0.6s;
+	transition-delay: 0.3s;
+	
+}
+
+.image-3:hover .image-3-tan .image-3-box{
+	background-color: rgba(0215, 57, 57, 0.8);
+	border-color: rgba(255, 255, 255, 1.0);
+}
+
+
+.image-3-box-text{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgba(255, 255, 255, 0);
+	transition: all 0.6s;
+	transition-delay: 0.3s;
+}
+
+.image-3:hover .image-3-tan .image-3-box .image-3-box-text{
+	color: rgba(255, 255, 255, 1);
+}
+
+
+.images-part-two{
+	height: 50%;
+	width: 100%;
+	/*background-color: green;*/
+	display: flex;
+	align-items: row;
+	justify-content: space-around;
+	margin-top: 3%;
+}
+
+.image-4-container{
+	height: 100%;
+	width: 20%;
+	/*background-color: black;*/
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: black;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+}
+
+.image-4{
+	width: 100%;
+	height: 100%;
+	background-position: 55% 55%;
+	background-size: 175%;
+	background-image: url(../images/climbing.jpg);
+	filter: brightness(.9);
+	transition: 0.7s;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+.image-4-tan{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0);
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.7s ;
+	transition-delay: 0.1s;
+}
+
+.image-4:hover{
+	background-size: 190%;
+	filter: brightness(1);
+}
+
+.image-4:hover .image-4-tan{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image-4-box{
+	height: 85%;
+	width: 85%;
+	/*background-color: white;*/
+	background-color: rgba(0215, 57, 57, 0);
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgba(255, 255, 255, 0);
+	transition: all 0.6s;
+	transition-delay: 0.3s;
+	
+}
+
+.image-4:hover .image-4-tan .image-4-box{
+	background-color: rgba(0215, 57, 57, 0.8);
+	border-color: rgba(255, 255, 255, 1.0);
+}
+
+
+.image-4-box-text{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgba(255, 255, 255, 0);
+	transition: all 0.6s;
+	transition-delay: 0.3s;
+}
+
+.image-4:hover .image-4-tan .image-4-box .image-4-box-text{
+	color: rgba(255, 255, 255, 1);
+}
+
+.image-5-container{
+	height: 100%;
+	width: 20%;
+	/*background-color: black;*/
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: black;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+}
+
+.image-5{
+	width: 100%;
+	height: 100%;
+	background-position: 55% 75%;
+	background-size: 175%;
+	background-image: url(../images/biking.jpg);
+	filter: brightness(.9);
+	transition: 0.7s;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+.image-5-tan{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0);
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.7s ;
+	transition-delay: 0.1s;
+}
+
+.image-5:hover{
+	background-size: 190%;
+	filter: brightness(1);
+}
+
+.image-5:hover .image-5-tan{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image-5-box{
+	height: 85%;
+	width: 85%;
+	/*background-color: white;*/
+	background-color: rgba(0215, 57, 57, 0);
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgba(255, 255, 255, 0);
+	transition: all 0.6s;
+	transition-delay: 0.3s;
+	
+}
+
+.image-5:hover .image-5-tan .image-5-box{
+	background-color: rgba(0215, 57, 57, 0.8);
+	border-color: rgba(255, 255, 255, 1.0);
+}
+
+
+.image-5-box-text{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgba(255, 255, 255, 0);
+	transition: all 0.6s;
+	transition-delay: 0.3s;
+}
+
+.image-5:hover .image-5-tan .image-5-box .image-5-box-text{
+	color: rgba(255, 255, 255, 1);
+}
+
+.image-6-container{
+	height: 100%;
+	width: 20%;
+	/*background-color: black;*/
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: black;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+}
+
+.image-6{
+	width: 100%;
+	height: 100%;
+	background-position: 55% 75%;
+	background-size: 175%;
+	background-image: url(../images/nature.jpg);
+	filter: brightness(.9);
+	transition: 0.7s;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+.image-6-tan{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0);
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.7s ;
+	transition-delay: 0.1s;
+}
+
+.image-6:hover{
+	background-size: 190%;
+	filter: brightness(1);
+}
+
+.image-6:hover .image-6-tan{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image-6-box{
+	height: 85%;
+	width: 85%;
+	/*background-color: white;*/
+	background-color: rgba(0215, 57, 57, 0);
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgba(255, 255, 255, 0);
+	transition: all 0.6s;
+	transition-delay: 0.3s;
+	
+}
+
+.image-6:hover .image-6-tan .image-6-box{
+	background-color: rgba(0215, 57, 57, 0.8);
+	border-color: rgba(255, 255, 255, 1.0);
+}
+
+
+.image-6-box-text{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgba(255, 255, 255, 0);
+	transition: all 0.6s;
+	transition-delay: 0.3s;
+}
+
+.image-6:hover .image-6-tan .image-6-box .image-6-box-text{
+	color: rgba(255, 255, 255, 1);
+}
+
+.section-five{
+	height: 400px;
+	background-image: url(../images/photoshop/BackgroundMid.jpg);
+	background-color: black;
+	background-position: center;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+
+.section-five-tan{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.section-five-title{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+
+}
+
+.section-five-span{
+	color: #d73939;
+}
+
+
+
+.section-five-hover{
+	height: 10%;
+	width: 12%;
+	border-width: 1.5px;
+	border-color: #d73939;
+	border-style: solid;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 25px;
+	color: white;
+	margin-top: 15px;
+
+	box-shadow: inset 0 0 0 0 #54b3d6;
+  	/*color: #54b3d6;*/
+  	/*margin: 0 -.25rem;*/
+  	padding: 0 .25rem;
+  	transition: color .3s ease-in-out, box-shadow .45s ease-in-out;
+}
+
+.section-five-hover:hover{
+	box-shadow: inset 500px 0 0 0 #54b3d6;
+  	color: black;
+}
+
+
+
+.section-six{
+	height: 100vh;
+	background-color: #a6a7bd;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+.section-six-wrapper{
+	height: 50%;
+	width: 100%;
+	/*background-color: black;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+ /*********************************/
+
+.six-div-one{
+	height: 100%;
+	width: 25%;
+	/*background-color: red;*/
+	outline-style: solid;
+	outline-color: black;
+	outline-width: 1.5px;
+	position: relative;
+	display: flex;
+	
+	
+
+}
+
+.andrew-image{
+	height: 80%;
+	width: 100%;
+	background-image: url(../images/andrew.jpg);
+	background-size: 110%;
+	background-repeat: no-repeat;
+	background-position: 55% 10%;
+	transition: 0.5s ease;
+	position: absolute;
+	z-index: 3;
+}
+
+.image-info{
+	height: 80%;
+	width: 100%;
+	/*background-color: rgba(166,167,189, .8);*/
+	background-color: rgba(0,0,0, .6);
+	position: absolute;
+	z-index: 4;
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+	align-items: center;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	transform: scale(0);
+	transition: 0.5s ease;
+}
+
+.six-div-one:hover .image-info{
+	transform: scale(1.0);
+}
+
+
+.the-dude{
+	height: 15%;
+	width: 40%;
+	border-color: #d73939;
+	border-style: solid;
+	border-width: 1.5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	color: white;
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+
+
+
+
+
+
+.footer-wrapper{
+	height: 20%;
+	width: 100%;
+	display: flex;
+	align-self: flex-end;
+	position: relative;
+}
+
+.six-div-one-footer{
+	height: 100%;
+	width: 100%;
+	background-color: #38394d;
+	font-size: 35px;
+	color: white;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*align-self: flex-end;*/
+	/*outline-style: solid;
+	outline-color: black;
+	outline-width: 1.5px;*/
+	/*transform: translate3d(0, 0, 0);*/
+	transition: 0.5s ease;
+	position: absolute;
+	z-index: 2;
+	
+	
+}
+
+.footer-social{
+	height: 100%;
+	width: 100%;
+	background-color: #a6a7bd;
+	position: absolute;
+	z-index: 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.Facebook{
+	font-size: 	50px;
+	color: #38394d;
+	transition: 0.3s ease-in-out;
+}
+
+.Facebook:hover{
+	color: #d73939;
+}
+
+.Instagram{
+	font-size: 	50px;
+	color: #38394d;
+	transition: 0.3s ease-in-out;
+}
+
+.Instagram:hover{
+	color: #d73939;
+}
+
+.Pinterest{
+	font-size: 	50px;
+	color: #38394d;
+	transition: 0.3s ease-in-out;
+}
+
+.Pinterest:hover{
+	color: #d73939;
+}
+
+.six-div-one:hover .six-div-one-footer{
+	transform: translate3d(0, -100px, 0);
+}
+
+
+
+
+
+.six-div-one:hover .andrew-image{
+	background-size: 125%;
+}
+
+ /*************************/
+
+.six-div-two{
+	height: 100%;
+	width: 25%;
+	/*background-color: red;*/
+	outline-style: solid;
+	outline-color: black;
+	outline-width: 1.5px;
+	position: relative;
+	display: flex;
+	
+	
+
+}
+
+.andrew-image-two{
+	height: 80%;
+	width: 100%;
+	background-image: url(../images/heather.jpg);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-position: 55% 65%;
+	transition: 0.5s ease;
+	position: absolute;
+	z-index: 3;
+}
+
+
+.six-div-two:hover .andrew-image-two{
+	background-size: 135%;
+}
+
+.image-info-two{
+	height: 80%;
+	width: 100%;
+	/*background-color: rgba(166,167,189, .8);*/
+	background-color: rgba(0,0,0, .6);
+	position: absolute;
+	z-index: 4;
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+	align-items: center;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	transform: scale(0);
+	transition: 0.5s ease;
+}
+
+.six-div-two:hover .image-info-two{
+	transform: scale(1.0);
+}
+
+
+.the-chick{
+	height: 15%;
+	width: 40%;
+	border-color: #d73939;
+	border-style: solid;
+	border-width: 1.5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	color: white;
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+
+
+
+
+
+
+.footer-wrapper-two{
+	height: 20%;
+	width: 100%;
+	display: flex;
+	align-self: flex-end;
+	position: relative;
+}
+
+.six-div-one-footer-two{
+	height: 100%;
+	width: 100%;
+	background-color: #38394d;
+	font-size: 35px;
+	color: white;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*align-self: flex-end;*/
+	/*outline-style: solid;
+	outline-color: black;
+	outline-width: 1.5px;*/
+	/*transform: translate3d(0, 0, 0);*/
+	transition: 0.5s ease;
+	position: absolute;
+	z-index: 2;
+	
+	
+}
+
+.footer-social-two{
+	height: 100%;
+	width: 100%;
+	background-color: #a6a7bd;
+	position: absolute;
+	z-index: 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.Facebook-two{
+	font-size: 	50px;
+	color: #38394d;
+	transition: 0.3s ease-in-out;
+}
+
+.Facebook-two:hover{
+	color: #d73939;
+}
+
+.Instagram-two{
+	font-size: 	50px;
+	color: #38394d;
+	transition: 0.3s ease-in-out;
+}
+
+.Instagram-two:hover{
+	color: #d73939;
+}
+
+.Pinterest-two{
+	font-size: 	50px;
+	color: #38394d;
+	transition: 0.3s ease-in-out;
+}
+
+.Pinterest-two:hover{
+	color: #d73939;
+}
+
+.six-div-two:hover .six-div-one-footer-two{
+	transform: translate3d(0, -100px, 0);
+}
+
+
+
+
+
+
+
+ /***************************/
+
+.six-div-three{
+	height: 100%;
+	width: 25%;
+	/*background-color: red;*/
+	outline-style: solid;
+	outline-color: black;
+	outline-width: 1.5px;
+	position: relative;
+	display: flex;
+	
+	
+
+}
+
+.andrew-image-three{
+	height: 80%;
+	width: 100%;
+	background-image: url(../images/jennifer.jpg);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-position: 85% 65%;
+	transition: 0.5s ease;
+	position: absolute;
+	z-index: 3;
+}
+
+
+.six-div-three:hover .andrew-image-three{
+	background-size: 135%;
+}
+
+.image-info-three{
+	height: 80%;
+	width: 100%;
+	/*background-color: rgba(166,167,189, .8);*/
+	background-color: rgba(0,0,0, .6);
+	position: absolute;
+	z-index: 4;
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+	align-items: center;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	transform: scale(0);
+	transition: 0.5s ease;
+}
+
+.six-div-three:hover .image-info-three{
+	transform: scale(1.0);
+}
+
+
+.the-chick-three{
+	height: 15%;
+	width: 40%;
+	border-color: #d73939;
+	border-style: solid;
+	border-width: 1.5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	color: white;
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+
+
+
+
+
+
+.footer-wrapper-three{
+	height: 20%;
+	width: 100%;
+	display: flex;
+	align-self: flex-end;
+	position: relative;
+}
+
+.six-div-one-footer-three{
+	height: 100%;
+	width: 100%;
+	background-color: #38394d;
+	font-size: 35px;
+	color: white;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*align-self: flex-end;*/
+	/*outline-style: solid;
+	outline-color: black;
+	outline-width: 1.5px;*/
+	/*transform: translate3d(0, 0, 0);*/
+	transition: 0.5s ease;
+	position: absolute;
+	z-index: 2;
+	
+	
+}
+
+.footer-social-three{
+	height: 100%;
+	width: 100%;
+	background-color: #a6a7bd;
+	position: absolute;
+	z-index: 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.Facebook-three{
+	font-size: 	50px;
+	color: #38394d;
+	transition: 0.3s ease-in-out;
+}
+
+.Facebook-three:hover{
+	color: #d73939;
+}
+
+.Instagram-three{
+	font-size: 	50px;
+	color: #38394d;
+	transition: 0.3s ease-in-out;
+}
+
+.Instagram-three:hover{
+	color: #d73939;
+}
+
+.Pinterest-three{
+	font-size: 	50px;
+	color: #38394d;
+	transition: 0.3s ease-in-out;
+}
+
+.Pinterest-three:hover{
+	color: #d73939;
+}
+
+.six-div-three:hover .six-div-one-footer-three{
+	transform: translate3d(0, -100px, 0);
+}
+
+
+/***************************************/
+
+
+.section-seven{
+	height: 100vh;
+	/*background-color: #38394d;*/
+	background-color: #a6a7bd;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 5%
+}
+
+
+.section-seven-title-wrapper{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+
+.section-seven-content-wrapper{
+	height: 80%;
+	width: 100%;
+	background-color: red;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.section-seven-side{
+	height: 100%;
+	width: 30%;
+	background-color: pink;
+}
+
+
+
+
+.section-sevencenter{
+	height: 100%;
+	width: 70%;
+	background-color: silver;
+}
