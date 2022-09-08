@@ -209,6 +209,7 @@ header{
 	background-color: yellow;*/
 	font-size: 50px;
 	color: white;
+	margin-top: 1.2%;
 }
 
 .div2{
@@ -1890,6 +1891,14 @@ a.slide__next,
 
 .google{
 	margin-top: 10%;
+}
+
+
+/*************************************/
+.section-form{
+	height: 500px;
+	width: 100%;
+	background-color: #a6a7bd;
 }
 
 
