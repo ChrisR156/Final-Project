@@ -1,6 +1,8 @@
 body{
 	/*height: 1000px;*/
 	position: relative;
+	font-family: 'Raleway', sans-serif;
+
 }
 
 header{
@@ -102,6 +104,9 @@ header{
 	color: red;
 }
 
+
+/***************************/
+
 .sectionone{
 	height: 100vh;
 	background-image: url(../images/photoshop/BackgroundMain.jpg);
@@ -187,11 +192,16 @@ header{
   	color: black;
 }
 
+
+/**************************************/
+
+
 .sectiontwo{
-	height: 100vh;
+	/*height: 100vh*/;
 	/*position: absolute;
 	z-index: 2;*/
 	background-color: #38394d;
+	padding: 80px 15px;
 }
 
 .divcontainertwo{
@@ -239,6 +249,7 @@ header{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	margin-top: 100px;
 }
 
 .second-section-service{
@@ -255,8 +266,8 @@ header{
 
 
 .div4-circle{
-	height: 30%;
-	width: 30%;
+	height: 110px;
+	width: 110px;
 	/*background-color: #4b4b4b*/;
 	border-width: 1.5px;
 	border-style: solid;
@@ -296,17 +307,20 @@ header{
 .div4-title{
 	color: white;
 	font-size: 25px;
+	margin-top: 30px;
 }
 
 .div4-lorem{
 	color: white;
 	text-align: center;
 	line-height: 1.5;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .div4-hover{
-	height: 15%;
-	width: 40%;
+	height: 50px;
+	width: 170px;
 	/*background-color: red;*/
 	text-align: center;
 	display: flex;
@@ -317,6 +331,7 @@ header{
 	border-style: solid;
 	border-color: #4b4b4b;
 	color: white;
+	cursor: pointer;
 
 	box-shadow: inset 0 0 0 0.1px #54b3d6;
   	/*color: #54b3d6;*/
@@ -334,11 +349,12 @@ header{
 
  /*all div4*/
 
+/****************************************/
 
 .sectionthree{
-	height: 100vh;
+	/*height: 100vh;*/
 	background-color: #a6a7bd;
-	
+	padding: 80px 15px;
 }
 
 .sectionthreedivwrapper{
@@ -353,8 +369,8 @@ header{
 }
 
 .divboxone{
-	height: 100%;
-	width: 25%;
+	height: 350px;
+	width: 350px;
 	/*background-color: green;*/
 	border-style: solid;
 	border-width: 2px;
@@ -409,8 +425,8 @@ header{
 
 
 .divboxtwo{
-	height: 100%;
-	width: 25%;
+	height: 350px;
+	width: 350px;
 	/*background-color: blue;*/
 	border-style: solid;
 	border-width: 2px;
@@ -421,8 +437,8 @@ header{
 }
 
 .divboxthree{
-	height: 100%;
-	width: 25%;
+	height: 350px;
+	width: 350px;
 	/*background-color: cyan;*/
 	border-style: solid;
 	border-width: 2px;
@@ -431,6 +447,10 @@ header{
 	justify-content: center;
 	align-items: center;
 }
+
+
+/**************************************/
+
 
 .section-four{
 	height: 100vh;
@@ -974,8 +994,13 @@ header{
 	color: rgba(255, 255, 255, 1);
 }
 
+
+/**************************************/
+
+
 .section-five{
 	height: 400px;
+	/*padding: 150px 15 px;*/
 	background-image: url(../images/photoshop/BackgroundMid.jpg);
 	background-color: black;
 	background-position: center;
@@ -1900,6 +1925,61 @@ a.slide__next,
 	width: 100%;
 	background-color: #a6a7bd;
 }
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.form-top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 0 10px 12px;
+  border: 1px solid #000;
+  background-color: #a6a7bd;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.form-input::placeholder {
+  color: #fff;
+}
+
+.form-input:focus {
+  border: 1px solid #d73939;
+  outline: none;
+}
+
+.form-button {
+  width: 20%;
+  background-color: #d73939;
+  padding: 10px;
+  color: #fff;
+  transition: all 0.2s;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.form-button:hover {
+  background-color: #a6a7bd;
+  color: #d73939;
+  border: 1px solid #d73939;
+}
+
+
+
 
 
 /***********************************/
