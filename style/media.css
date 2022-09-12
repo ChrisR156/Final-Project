@@ -1,0 +1,97 @@
+@media only screen and (max-width: 1200px){
+	.six-image-wrapper{
+		height: 360px;
+		width: 35%;
+	}
+
+	.imhover{
+		width: 15%;
+	}
+
+	.section-five-hover{
+		width: 15%;
+	}
+}
+
+@media only screen and (max-width: 1050px){
+	.six-image-wrapper{
+		height: 360px;
+		width: 40%;
+	}
+
+	.form-top{
+		flex-wrap: wrap;
+	}
+
+	.footer-social-wrapper{
+		width: 60%;
+	}
+
+}
+
+@media only screen and (max-width: 950px){
+	
+	.imhover{
+		width: 20%;
+	}
+
+	.section-five-hover{
+		width: 20%;
+	}
+}
+
+@media only screen and (max-width: 930px){
+	
+	.image-container-class{
+		height: 200px;
+		width: 34%;
+	}
+
+	.footer-social-wrapper{
+		width: 60%;
+	}
+
+	.six-image-wrapper{
+		height: 360px;
+		width: 45%;
+	}
+
+	.sectionone{
+	height: 100vh;
+	background-image: url(../images/photoshop/BackgroundMain.jpg);
+	background-color: black;
+	background-position: center;
+	background-size: 150%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	/*transition: 0.5s ease;*/
+
+	animation-name: BackgroundMain;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-direction: forwards;
+	animation-play-state: running;
+
+
+
+}
+
+@keyframes BackgroundMain{
+
+	0%{
+		background-size: 150%;
+	}
+
+	50%{
+		background-size: 175%;
+	}
+
+	100%{
+		background-size: 150%;
+	}
+}
+
+
+}
