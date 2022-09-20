@@ -1,22 +1,51 @@
 @media only screen and (max-width: 1200px){
+	
+	.sectiononelogo {
+    height: 300px;
+    width: 700px;
+}
+
 	.six-image-wrapper{
 		height: 360px;
 		width: 35%;
 	}
 
-	.imhover{
-		width: 15%;
+	.box-combine{
+		width: 30%;
 	}
 
-	.section-five-hover{
+	/*.imhover{
 		width: 15%;
-	}
+	}*/
+
+	.imhover {
+    width: 180px;
+    height: 60px;
 }
 
-@media only screen and (max-width: 1050px){
+	/*.section-five-hover{
+		width: 15%;
+	}*/
+
+	.section-five-hover {
+    width: 190px;
+    height: 50px;
+}
+
+	.pagedata{
+		width: 60%;
+	}
+
+}
+
+@media only screen and (max-width: 1070px){
 	.six-image-wrapper{
 		height: 360px;
 		width: 40%;
+	}
+
+	.pagedata{
+		width: 60%;
 	}
 
 	.form-top{
@@ -27,28 +56,92 @@
 		width: 60%;
 	}
 
+	.sectiononelogo {
+    width: 600px;
+    height: 250px;
 }
 
-@media only screen and (max-width: 950px){
-	
-	.imhover{
-		width: 20%;
+	/*.sectiononelogo{
+		width: 60%;
+	}*/
+
+	.box-combine{
+		height: 290px;
+		width: 30%;
 	}
 
-	.section-five-hover{
-		width: 20%;
+}
+
+@media only screen and (max-width: 970px){
+	
+	.sectiononelogo {
+    width: 570px;
+    height: 240px;
+}
+
+	.pagedata{
+		width: 60%;
 	}
+
+	.imhover {
+    width: 180px;
+    height: 60px;
+}
+
+	.sectionthree{
+		padding: 56px 62px;
+	}
+
+
+	.box-combine{
+		height: 250px;
+		width: 30%;
+	}
+
+	/*.section-five-hover{
+		width: 20%;
+	}*/
+
+	.section-five-hover {
+    width: 170px;
+    height: 40px;
+}
+
+	.footer-social-wrapper{
+		width: 65%;
+	}
+
+
 }
 
 @media only screen and (max-width: 930px){
 	
+	.sectiononelogo {
+    width: 540px;
+    height: 230px;
+}
+
 	.image-container-class{
 		height: 200px;
 		width: 34%;
 	}
 
+	.pagedata{
+		width: 65%;
+	}
+
+
+	.box-combine{
+		width: 30%;
+		gap: 15%;
+	}
+
+	.form-button{
+		width: 25%;
+	}
+
 	.footer-social-wrapper{
-		width: 60%;
+		width: 70%;
 	}
 
 	.six-image-wrapper{
@@ -76,12 +169,14 @@
 
 
 
+
 }
 
 @keyframes BackgroundMain{
 
 	0%{
-		background-size: 150%;
+		ba
+		ckground-size: 150%;
 	}
 
 	50%{
@@ -93,5 +188,419 @@
 	}
 }
 
+
+}
+
+@media only screen and (max-width: 850px){
+	
+	.sectiononelogo {
+    width: 510px;
+    height: 220px;
+}
+
+	.section-seven-left{
+		width: 97%;
+	}
+
+	.div3{
+		width: 100%;
+	}
+
+	.contact-text{
+		margin-bottom: 70px;
+	}
+
+	.mail{
+		margin-bottom: 70px;
+	}
+
+	.section-seven-google{
+		width: 97%;
+	}
+
+	.sectionthreedivwrapper{
+		gap: 40px;
+	}
+
+	.box-combine{
+		height: 240px;
+		width: 40%;
+	}	
+
+
+}
+
+@media only screen and (max-width: 800px){
+	.section-five-title{
+		font-size: 40px;
+	}
+
+	.pagedata{
+		width: 75%;
+	}
+
+	.div4{
+		gap: 60px;
+	}
+
+	.second-section-service{
+		width: 45%;
+	}
+
+	.sectiononelogo{
+		80%
+	}
+
+	/*.section-five-hover{
+		width: 24%;
+	}*/
+
+	.section-five-hover {
+    width: 170px;
+    height: 40px;
+    font-size: 23px;
+}
+
+	.div1{
+		margin-top: 10%;
+	}
+
+	.six-image-wrapper{
+		width: 55%;
+	}
+
+}
+
+@media only screen and (max-width: 685px){
+	
+
+	.sectiononelogo {
+    width: 480px;
+    height: 210px;
+}
+
+	.imhover {
+    width: 180px;
+    height: 50px;
+}
+
+	.six-image-wrapper {
+    width: 65%;
+	}
+
+	.six-image-wrapper {
+    width: 65%;
+	}
+
+	.div3 {
+    width: 80%;
+	}
+
+	/*####BURGER####*/
+
+	.burger-menu{
+		display: flex;
+	}
+
+	.pagedata{
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 610px){
+	.sectionone{
+	height: 100vh;
+	background-image: url(../images/photoshop/BackgroundMain.jpg);
+	background-color: black;
+	background-position: center;
+	background-size: 170%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	/*transition: 0.5s ease;*/
+
+	animation-name: BackgroundMain;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-direction: forwards;
+	animation-play-state: running;
+
+
+
+
+}
+
+@keyframes BackgroundMain{
+
+	0%{
+		ba
+		ckground-size: 170%;
+	}
+
+	50%{
+		background-size: 195%;
+	}
+
+	100%{
+		background-size: 170%;
+	}
+}
+
+
+
+	.box-combine {
+    height: 240px;
+    width: 50%;
+}
+
+	.image-container-class {
+    height: 200px;
+    width: 47%;
+}
+
+	.section-five{
+		background-size: 140%;
+	}
+
+
+	.section-five-title {
+    font-size: 35px;
+}
+
+	/*.section-five-hover {
+    width: 24%;
+    height: 40px;
+    font-size: 20px;
+}*/
+
+	.section-five-hover {
+    width: 170px;
+    height: 40px;
+    font-size: 23px;
+}
+
+	.form-button {
+    width: 30%;
+}
+
+	.footer-social-wrapper {
+    width: 80%;
+}
+
+	.footer-logos{
+		height: 50px;
+		width: 50px;
+	}
+
+	.footer-credits{
+		font-size: 15px;
+	}
+
+}
+
+@media only screen and (max-width: 570px){
+	.sectiononelogo {
+    width: 380px;
+    height: 180px;
+}
+
+/*.sectiononelogo {
+    width: 80%;
+    height: 35%;
+}*/
+
+	.imhover {
+    width: 170px;
+    height: 42px;
+    font-size: 22px;
+}
+
+	.section-five-hover{
+		width: 170px;
+    	height: 42px;
+    	font-size: 22px;
+	}
+
+	.six-image-wrapper{
+		width: 75%;
+	}
+
+	.div1{
+		font-size: 35px;
+	}
+
+	.div3{
+		font-size: 16px;
+		width: 100%;
+	}
+
+	.div4-circle{
+	height: 100px;
+    width: 100px;
+    font-size: 35px;
+
+}
+
+	.box-combine {
+    height: 280px;
+    width: 280px;
+}
+
+	.section-five {
+    background-size: 200%;
+}
+
+	.footer-logo-image {
+    height: 90%;
+    width: 90%;
+}
+
+	.form{
+		width: 80%;
+	}
+
+	.form-button {
+    width: 100%;
+    font-size: 20px;
+}
+
+	.image-container-class {
+    height: 290px;
+    width: 67%;
+}
+
+	.divboxonewrapper{
+		font-size: 550%;
+	}
+
+	.personalcomputer{
+		font-size: 18px;
+	}
+
+	.second-section-service {
+    width: 85%;
+}
+
+	.sectionthree {
+    padding: 56px 18px;
+}
+
+	.sectionone{
+	height: 100vh;
+	background-image: url(../images/photoshop/BackgroundMain.jpg);
+	background-color: black;
+	background-position: center;
+	background-size: 200%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	/*transition: 0.5s ease;*/
+
+	animation-name: BackgroundMain;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-direction: forwards;
+	animation-play-state: running;
+
+
+
+
+}
+
+@keyframes BackgroundMain{
+
+	0%{
+		ba
+		ckground-size: 200%;
+	}
+
+	50%{
+		background-size: 225%;
+	}
+
+	100%{
+		background-size: 200%;
+	}
+}
+
+
+
+}
+
+@media only screen and (max-width: 470px){
+	
+
+	.sectionone{
+	height: 100vh;
+	background-image: url(../images/photoshop/BackgroundMain.jpg);
+	background-color: black;
+	background-position: center;
+	background-size: 240%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	/*transition: 0.5s ease;*/
+
+	animation-name: BackgroundMain;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-direction: forwards;
+	animation-play-state: running;
+
+
+
+
+}
+
+@keyframes BackgroundMain{
+
+	0%{
+		ba
+		ckground-size: 240%;
+	}
+
+	50%{
+		background-size: 265%;
+	}
+
+	100%{
+		background-size: 240%;
+	}
+}
+
+	.section-five {
+    background-size: 230%;
+}
+
+	.section-five-title{
+		font-size: 25px;
+	}
+
+	.six-image-wrapper {
+    width: 95%;
+}
+
+	.image-container-class {
+    height: 290px;
+    width: 90%;
+}
+
+	.contact-text{
+		font-size: 16px;
+	}
+
+	.logo-image {
+    height: 80%;
+    width: 80%;
+}
+
+	.footer-social-wrapper {
+    width: 80%;
+    gap: 10px;
+}
 
 }

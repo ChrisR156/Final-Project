@@ -14,7 +14,7 @@ body{
 header{
 	height: 60px;
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0.3);
 	padding-left: 10%;
 	padding-right: 10%;
 	position: fixed;
@@ -31,7 +31,7 @@ header{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-
+	align-items: center;
 }
 
 .divlogo{
@@ -119,6 +119,76 @@ header{
 	color: red;
 }
 
+ /*!!!!BURGER!!!*/
+
+ .burger-menu{
+ 	height: 50px;
+ 	width: 50px;
+ 	/*border: 3px solid #FFF;*/
+ 	cursor: pointer;
+ 	transition: all .5s ease-in-out;
+ 	position: relative;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	display: none;
+
+ }
+
+.button-burger-meenu{
+	width: 30px;
+	height: 4px;
+	background: #FFF;
+	border-radius: 5px;
+	transition: all .5s ease-in-out;
+
+}
+
+.button-burger-meenu::before,
+.button-burger-meenu::after{
+	content:' ';
+	position: absolute;
+	width: 30px;
+	height: 4px;
+	background: #FFF;
+	border-radius: 5px;
+	transition: all .5s ease-in-out;
+}
+
+.button-burger-meenu::before{
+	transform: translateY(-10px);
+}
+
+.button-burger-meenu::after{
+	transform: translateY(10px);
+}
+
+.burger-menu-slider{
+	width: 100%;
+	height: 200px;
+	background-color: rgba(0, 0, 0, 0.3);
+	position: fixed;
+	margin-top: 60px;
+	z-index: 32;
+	/*display: none;*/
+}
+
+	/*#### ANIMATION ####*/
+
+.burger-menu.open .button-burger-meenu{
+	transform: translateX(-30px);
+	background: transparent;
+}
+
+.burger-menu.open .button-burger-meenu::before{
+	transform: rotate(45deg) translate(22px, -22px);
+}
+
+.burger-menu.open .button-burger-meenu::after{
+	transform: rotate(-45deg) translate(22px, 22px);
+}
+
+	/*XXXXXX BURGER XXXXXX*/
 
 /***************************/
 
@@ -194,6 +264,7 @@ header{
 	justify-content: center;
 	font-size: 25px;
 	color: white;
+	text-align: center;
 
 	box-shadow: inset 0 0 0 0 #54b3d6;
   	/*color: #54b3d6;*/
@@ -234,7 +305,7 @@ header{
 	background-color: yellow;*/
 	font-size: 50px;
 	color: white;
-	margin-top: 1.2%;
+	margin-top: 5%;
 	text-align: center;
 }
 
@@ -252,6 +323,7 @@ header{
 	background-color: maroon;*/
 	height: 15%;
 	width: 70%;
+	margin-bottom: 50px;
 	font-size: 20px;
 	text-align: center;
 	color: white;
@@ -263,7 +335,8 @@ header{
 	width: 100%;
 	/*background-color: cyan;*/
 	display: flex;
-	flex-direction: row;
+	flex-wrap: wrap;
+	/*flex-direction: row;*/
 	justify-content: space-around;
 	margin-top: 100px;
 }
@@ -386,7 +459,7 @@ header{
 	flex-wrap: wrap;
 }
 
-.divboxone{
+.div-box-one{
 	height: 350px;
 	width: 25%;
 	/*background-color: green;*/
@@ -442,7 +515,7 @@ header{
 }
 
 
-.divboxtwo{
+.div-box-two{
 	height: 350px;
 	width: 25%;
 	/*background-color: blue;*/
@@ -454,7 +527,7 @@ header{
 	align-items: center;
 }
 
-.divboxthree{
+.div-box-three{
 	height: 350px;
 	width: 25%;
 	/*background-color: cyan;*/
@@ -476,7 +549,7 @@ header{
 	z-index: 2;*/
 	/*background-color: #75779c;*/
 	background-color: #38394d;
-	padding: 70px 15px;
+	padding: 70px 18px;
 
 }
 
@@ -1051,6 +1124,7 @@ header{
 	font-size: 25px;
 	color: white;
 	margin-top: 15px;
+	text-align: center;
 
 	box-shadow: inset 0 0 0 0 #54b3d6;
   	/*color: #54b3d6;*/
@@ -1073,6 +1147,7 @@ header{
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	padding: 16px 11px;
 }
 
 
@@ -1114,7 +1189,7 @@ header{
 	height: 80%;
 	width: 100%;
 	background-image: url(../images/andrew.jpg);
-	background-size: 110%;
+	background-size: 120%;
 	background-repeat: no-repeat;
 	background-position: 55% 10%;
 	transition: 0.5s ease;
@@ -1154,7 +1229,7 @@ header{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 30px;
+	font-size: 25px;
 	color: white;
 	margin-bottom: 30px;
 	margin-top: 50px;
@@ -1247,7 +1322,7 @@ header{
 
 
 .six-div-one:hover .andrew-image{
-	background-size: 125%;
+	background-size: 135%;
 }
 
  /*************************/
@@ -1268,7 +1343,7 @@ header{
 	height: 80%;
 	width: 100%;
 	background-image: url(../images/heather.jpg);
-	background-size: 120%;
+	background-size: 130%;
 	background-repeat: no-repeat;
 	background-position: 55% 65%;
 	transition: 0.5s ease;
@@ -1278,7 +1353,7 @@ header{
 
 
 .six-div-two:hover .andrew-image-two{
-	background-size: 135%;
+	background-size: 145%;
 }
 
 .image-info-two{
@@ -1313,7 +1388,7 @@ header{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 30px;
+	font-size: 25px;
 	color: white;
 	margin-bottom: 30px;
 	margin-top: 50px;
@@ -1426,7 +1501,7 @@ header{
 	height: 80%;
 	width: 100%;
 	background-image: url(../images/jennifer.jpg);
-	background-size: 120%;
+	background-size: 140%;
 	background-repeat: no-repeat;
 	background-position: 85% 65%;
 	transition: 0.5s ease;
@@ -1436,7 +1511,7 @@ header{
 
 
 .six-div-three:hover .andrew-image-three{
-	background-size: 135%;
+	background-size: 155%;
 }
 
 .image-info-three{
@@ -1471,7 +1546,7 @@ header{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 30px;
+	font-size: 25px;
 	color: white;
 	margin-bottom: 30px;
 	margin-top: 50px;
@@ -2008,7 +2083,7 @@ a.slide__next,
   color: #fff;
   transition: all 0.2s;
   outline: none;
-  border: none;
+  border: 1px solid transparent;
   cursor: pointer;
   font-family: inherit;
   border-radius: 5px;
@@ -2061,6 +2136,7 @@ a.slide__next,
 	font-size: 50px;
 	color: cyan;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	margin-bottom: 20px;
 }
@@ -2246,4 +2322,5 @@ a.slide__next,
 	width: 100px;
 	background-color: indianred;*/
 	color: white;
+	text-align: center;
 }
