@@ -36,6 +36,45 @@
 		width: 60%;
 	}
 
+	.sectionone{
+	height: 100vh;
+	background-image: url(../images/photoshop/BackgroundMain.jpg);
+	background-color: black;
+	background-position: center;
+	background-size: 140%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	/*transition: 0.5s ease;*/
+
+	animation-name: BackgroundMain;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-direction: forwards;
+	animation-play-state: running;
+
+
+
+
+}
+
+@keyframes BackgroundMain{
+
+	0%{
+		ba
+		ckground-size: 140%;
+	}
+
+	50%{
+		background-size: 165%;
+	}
+
+	100%{
+		background-size: 140%;
+	}
+}
+
 }
 
 @media only screen and (max-width: 1070px){
@@ -69,6 +108,48 @@
 		height: 290px;
 		width: 30%;
 	}
+
+	.sectionone{
+	height: 100vh;
+	background-image: url(../images/photoshop/BackgroundMain.jpg);
+	background-color: black;
+	background-position: center;
+	background-size: 140%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	/*transition: 0.5s ease;*/
+
+	animation-name: BackgroundMain;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-direction: forwards;
+	animation-play-state: running;
+
+
+
+
+}
+
+@keyframes BackgroundMain{
+
+	0%{
+		ba
+		ckground-size: 140%;
+	}
+
+	50%{
+		background-size: 165%;
+	}
+
+	100%{
+		background-size: 140%;
+	}
+}
+
+
+}
 
 }
 
@@ -269,6 +350,45 @@
 		width: 55%;
 	}
 
+	.sectionone{
+	height: 100vh;
+	background-image: url(../images/photoshop/BackgroundMain.jpg);
+	background-color: black;
+	background-position: center;
+	background-size: 180%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	/*transition: 0.5s ease;*/
+
+	animation-name: BackgroundMain;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-direction: forwards;
+	animation-play-state: running;
+
+
+
+
+}
+
+@keyframes BackgroundMain{
+
+	0%{
+		ba
+		ckground-size: 180%;
+	}
+
+	50%{
+		background-size: 205%;
+	}
+
+	100%{
+		background-size: 180%;
+	}
+}
+
 }
 
 @media only screen and (max-width: 685px){
@@ -278,6 +398,10 @@
     width: 480px;
     height: 210px;
 }
+
+	.burger-menu-slider{
+		display: block;
+	}
 
 	.imhover {
     width: 180px;
@@ -314,7 +438,7 @@
 	background-image: url(../images/photoshop/BackgroundMain.jpg);
 	background-color: black;
 	background-position: center;
-	background-size: 170%;
+	background-size: 200%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	/*transition: 0.5s ease;*/
@@ -336,15 +460,15 @@
 
 	0%{
 		ba
-		ckground-size: 170%;
+		ckground-size: 200%;
 	}
 
 	50%{
-		background-size: 195%;
+		background-size: 225%;
 	}
 
 	100%{
-		background-size: 170%;
+		background-size: 200%;
 	}
 }
 
@@ -492,7 +616,7 @@
 	background-image: url(../images/photoshop/BackgroundMain.jpg);
 	background-color: black;
 	background-position: center;
-	background-size: 200%;
+	background-size: 220%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	/*transition: 0.5s ease;*/
@@ -514,15 +638,15 @@
 
 	0%{
 		ba
-		ckground-size: 200%;
+		ckground-size: 220%;
 	}
 
 	50%{
-		background-size: 225%;
+		background-size: 245%;
 	}
 
 	100%{
-		background-size: 200%;
+		background-size: 220%;
 	}
 }
 
