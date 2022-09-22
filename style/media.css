@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media only screen and (max-width: 1200px){
 	
 	.sectiononelogo {
@@ -46,24 +53,46 @@
 	background-repeat: no-repeat;
 	/*transition: 0.5s ease;*/
 
-	animation-name: BackgroundMain;
-	animation-duration: 20s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-	animation-delay: 0s;
-	animation-direction: forwards;
-	animation-play-state: running;
+	-webkit-animation-name: BackgroundMain;
+
+	        animation-name: BackgroundMain;
+	-webkit-animation-duration: 20s;
+	        animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	        animation-timing-function: ease-in-out;
+	-webkit-animation-delay: 0s;
+	        animation-delay: 0s;
+	-webkit-animation-direction: forwards;
+	        animation-direction: forwards;
+	-webkit-animation-play-state: running;
+	        animation-play-state: running;
 
 
 
 
 }
 
+@-webkit-keyframes BackgroundMain{
+
+	0%{
+		background-size: 140%;
+	}
+
+	50%{
+		background-size: 165%;
+	}
+
+	100%{
+		background-size: 140%;
+	}
+}
+
 @keyframes BackgroundMain{
 
 	0%{
-		ba
-		ckground-size: 140%;
+		background-size: 140%;
 	}
 
 	50%{
@@ -78,6 +107,7 @@
 }
 
 @media only screen and (max-width: 1070px){
+	
 	.six-image-wrapper{
 		height: 360px;
 		width: 40%;
@@ -88,7 +118,8 @@
 	}
 
 	.form-top{
-		flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
 	}
 
 	.footer-social-wrapper{
@@ -119,24 +150,46 @@
 	background-repeat: no-repeat;
 	/*transition: 0.5s ease;*/
 
-	animation-name: BackgroundMain;
-	animation-duration: 20s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-	animation-delay: 0s;
-	animation-direction: forwards;
-	animation-play-state: running;
+	-webkit-animation-name: BackgroundMain;
+
+	        animation-name: BackgroundMain;
+	-webkit-animation-duration: 20s;
+	        animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	        animation-timing-function: ease-in-out;
+	-webkit-animation-delay: 0s;
+	        animation-delay: 0s;
+	-webkit-animation-direction: forwards;
+	        animation-direction: forwards;
+	-webkit-animation-play-state: running;
+	        animation-play-state: running;
 
 
 
 
 }
 
+@-webkit-keyframes BackgroundMain{
+
+	0%{
+		background-size: 140%;
+	}
+
+	50%{
+		background-size: 165%;
+	}
+
+	100%{
+		background-size: 140%;
+	}
+}
+
 @keyframes BackgroundMain{
 
 	0%{
-		ba
-		ckground-size: 140%;
+		background-size: 140%;
 	}
 
 	50%{
@@ -151,7 +204,7 @@
 
 }
 
-}
+/*}*/
 
 @media only screen and (max-width: 970px){
 	
@@ -240,24 +293,46 @@
 	background-repeat: no-repeat;
 	/*transition: 0.5s ease;*/
 
-	animation-name: BackgroundMain;
-	animation-duration: 20s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-	animation-delay: 0s;
-	animation-direction: forwards;
-	animation-play-state: running;
+	-webkit-animation-name: BackgroundMain;
+
+	        animation-name: BackgroundMain;
+	-webkit-animation-duration: 20s;
+	        animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	        animation-timing-function: ease-in-out;
+	-webkit-animation-delay: 0s;
+	        animation-delay: 0s;
+	-webkit-animation-direction: forwards;
+	        animation-direction: forwards;
+	-webkit-animation-play-state: running;
+	        animation-play-state: running;
 
 
 
 
 }
 
+@-webkit-keyframes BackgroundMain{
+
+	0%{
+		background-size: 150%;
+	}
+
+	50%{
+		background-size: 175%;
+	}
+
+	100%{
+		background-size: 150%;
+	}
+}
+
 @keyframes BackgroundMain{
 
 	0%{
-		ba
-		ckground-size: 150%;
+		background-size: 150%;
 	}
 
 	50%{
@@ -328,9 +403,9 @@
 		width: 45%;
 	}
 
-	.sectiononelogo{
+	/*.sectiononelogo{
 		80%
-	}
+	}*/
 
 	/*.section-five-hover{
 		width: 24%;
@@ -360,24 +435,46 @@
 	background-repeat: no-repeat;
 	/*transition: 0.5s ease;*/
 
-	animation-name: BackgroundMain;
-	animation-duration: 20s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-	animation-delay: 0s;
-	animation-direction: forwards;
-	animation-play-state: running;
+	-webkit-animation-name: BackgroundMain;
+
+	        animation-name: BackgroundMain;
+	-webkit-animation-duration: 20s;
+	        animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	        animation-timing-function: ease-in-out;
+	-webkit-animation-delay: 0s;
+	        animation-delay: 0s;
+	-webkit-animation-direction: forwards;
+	        animation-direction: forwards;
+	-webkit-animation-play-state: running;
+	        animation-play-state: running;
 
 
 
 
 }
 
+@-webkit-keyframes BackgroundMain{
+
+	0%{
+		background-size: 180%;
+	}
+
+	50%{
+		background-size: 205%;
+	}
+
+	100%{
+		background-size: 180%;
+	}
+}
+
 @keyframes BackgroundMain{
 
 	0%{
-		ba
-		ckground-size: 180%;
+		background-size: 180%;
 	}
 
 	50%{
@@ -423,6 +520,8 @@
 	/*####BURGER####*/
 
 	.burger-menu{
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
 	}
 
@@ -443,24 +542,46 @@
 	background-repeat: no-repeat;
 	/*transition: 0.5s ease;*/
 
-	animation-name: BackgroundMain;
-	animation-duration: 20s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-	animation-delay: 0s;
-	animation-direction: forwards;
-	animation-play-state: running;
+	-webkit-animation-name: BackgroundMain;
+
+	        animation-name: BackgroundMain;
+	-webkit-animation-duration: 20s;
+	        animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	        animation-timing-function: ease-in-out;
+	-webkit-animation-delay: 0s;
+	        animation-delay: 0s;
+	-webkit-animation-direction: forwards;
+	        animation-direction: forwards;
+	-webkit-animation-play-state: running;
+	        animation-play-state: running;
 
 
 
 
 }
 
+@-webkit-keyframes BackgroundMain{
+
+	0%{
+		background-size: 200%;
+	}
+
+	50%{
+		background-size: 225%;
+	}
+
+	100%{
+		background-size: 200%;
+	}
+}
+
 @keyframes BackgroundMain{
 
 	0%{
-		ba
-		ckground-size: 200%;
+		background-size: 200%;
 	}
 
 	50%{
@@ -621,24 +742,46 @@
 	background-repeat: no-repeat;
 	/*transition: 0.5s ease;*/
 
-	animation-name: BackgroundMain;
-	animation-duration: 20s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-	animation-delay: 0s;
-	animation-direction: forwards;
-	animation-play-state: running;
+	-webkit-animation-name: BackgroundMain;
+
+	        animation-name: BackgroundMain;
+	-webkit-animation-duration: 20s;
+	        animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	        animation-timing-function: ease-in-out;
+	-webkit-animation-delay: 0s;
+	        animation-delay: 0s;
+	-webkit-animation-direction: forwards;
+	        animation-direction: forwards;
+	-webkit-animation-play-state: running;
+	        animation-play-state: running;
 
 
 
 
 }
 
+@-webkit-keyframes BackgroundMain{
+
+	0%{
+		background-size: 220%;
+	}
+
+	50%{
+		background-size: 245%;
+	}
+
+	100%{
+		background-size: 220%;
+	}
+}
+
 @keyframes BackgroundMain{
 
 	0%{
-		ba
-		ckground-size: 220%;
+		background-size: 220%;
 	}
 
 	50%{
@@ -667,24 +810,46 @@
 	background-repeat: no-repeat;
 	/*transition: 0.5s ease;*/
 
-	animation-name: BackgroundMain;
-	animation-duration: 20s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-	animation-delay: 0s;
-	animation-direction: forwards;
-	animation-play-state: running;
+	-webkit-animation-name: BackgroundMain;
+
+	        animation-name: BackgroundMain;
+	-webkit-animation-duration: 20s;
+	        animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	        animation-timing-function: ease-in-out;
+	-webkit-animation-delay: 0s;
+	        animation-delay: 0s;
+	-webkit-animation-direction: forwards;
+	        animation-direction: forwards;
+	-webkit-animation-play-state: running;
+	        animation-play-state: running;
 
 
 
 
 }
 
+@-webkit-keyframes BackgroundMain{
+
+	0%{
+		background-size: 240%;
+	}
+
+	50%{
+		background-size: 265%;
+	}
+
+	100%{
+		background-size: 240%;
+	}
+}
+
 @keyframes BackgroundMain{
 
 	0%{
-		ba
-		ckground-size: 240%;
+		background-size: 240%;
 	}
 
 	50%{
